@@ -1,0 +1,29 @@
+{
+  "name": "tabarato-nodejs",
+  "version": "1.0.0",
+  "description": "Web Service de preços com geolocalização",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbezerra/tabarato-nodejs.git"
+  },
+  "author": "Ramon Bezerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbezerra/tabarato-nodejs/issues"
+  },
+  "homepage": "https://github.com/rbezerra/tabarato-nodejs#readme",
+  "dependencies":{
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.4",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0"
+  }
+}
